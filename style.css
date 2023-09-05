@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.background-element {
+    width: 100%; 
+    height: 300px; 
+    background-image: url('BackGround.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.SearchingDiv{
+    margin-left: 30%;
+    width:400px;
+    height:200px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SearchingDiv h1{
+    color: white;
+}
+.SearchingDiv form{
+    width: 70%;
+}
+.SearchingDiv input{
+    border-radius: 30%;
+    border: none;
+height: 30px;
+width: 100%;
+}
+.daysTempureture{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.daysTempureture div {
+    background-color: gray;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.weatherDataContainer{
+    width:100%;
+    height: 200px;
+
+}
+.weatherDataContainer div{
+    display: flex;
+    flex-direction: row;
+}
+.daysTempureture div:hover{
+   background-color: white;
+   color: white;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.LocationIcon{
+    width: 30px;
+    height: 40px;
+}
+.SunIcon{
+    width: 100px;
+    height: 100px;
+}
+.HoursWeather{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.HoursWeather div{
+margin-left: 40px;
+}
+.SearchImg{
+    width: 30px;
+    height: 30px;
+}
