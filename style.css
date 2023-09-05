@@ -112,7 +112,7 @@ section {
 
 .adeg {
     font-size: 80px;
-    margin-left: 450px;
+    margin-left: 30%;
     margin-top: -10px;
 }
 
@@ -207,5 +207,24 @@ img {
 
     .footer {
         margin-left: 10px;
+    }
+}
+@media screen and (min-width: 678px){
+    .adeg {
+        margin-left: 200px;
+    }
+    .SunIcon {
+        margin-left: 200px;
+    }
+    
+    .search-input {
+        width: 400px;
+        height: 50px;
+    }
+    .pays {
+        font-size: 25px;
+    }
+    table p{
+        font-size: 25px;
     }
 }
