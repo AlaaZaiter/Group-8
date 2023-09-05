@@ -1,57 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="style.css">    
-    <body>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoursWeather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
         <div class="background-element">
-        <div class="SearchingDiv">
-            <h1>Find weather Forecast</h1>
-        <Form style="display: flex;flex-direction: row;">
-            <input type="search">
-            <img src="search.svg" alt="search" class="SearchImg">
-        </Form>
-        </div>
-        </div>
-        
-        <div class="daysTempureture">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="weatherDataContainer">
-            <div>
-                <section>
-                <p>London</p>
-                <img src="location-sign-svgrepo-com.svg" alt="Location" class="LocationIcon">
-                </section>
+            <div class="SearchingDiv">
+                <h1 class="title">Find weather Forecast</h1>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <button class="search-button">
+                        <i class="search-icon">&#128269;</i>
+                    </button>
+                </div>
             </div>
-         <div>
-<p style="margin-right: 300px;">
-    THUR 19 SEPTEMBER
-</p>
-<p style="margin-right: 300px;">
-    20°
-</p>
-<img src="Sun.svg" alt="Sun" class="SunIcon">
-         </div>
         </div>
-        <div class="HoursWeather">
-<div>New</div>
-<div>8:00</div>
-<div>9:00</div>
-<div>10:00</div>
-<div>11:00</div>
-<div>12:00</div>
-<div>13:00</div>
-<div>14:00</div>
-<div>15:00</div>
-<div>16:00</div>
-<div>17:00</div>
-<div>18:00</div>
-<div>19:00</div>
-<div>20:00</div>
+    </header>
+    <div class="daysTempureture">
+        <div>
+            <h6 class="dys">Today<br>19°</h6>
         </div>
-        <script src="script.js"></script>
-    </body>
+        <div>
+            <h6 class="dys">FRI<br>19°</h6>
+        </div>
+        <div>
+            <h6 class="dys">SAT<br>21°</h6>
+        </div>
+        <div>
+            <h6 class="dys">SUN<br>20°</h6>
+        </div>
+        <div>
+            <h6 class="dys">MON<br>20°</h6>
+        </div>
+    </div>
+    <div class="weatherDataContainer">
+        <div>
+            <section>
+                <p class="pays">London</p>
+                <img src="location-sign-svgrepo-com.svg" alt="Location" class="LocationIcon">
+            </section>
+        </div>
+        <div>
+            <p class="adate">
+                THUR 19 <br>SEPTEMBER
+            </p>
+            <p class="adeg">
+                20°
+            </p>
+            <img src="Sun.svg" alt="Sun" class="SunIcon">
+        </div>
+    </div>
+    <div class="scroll-container">
+        <table>
+            <tr>
+                <th>
+                    NOW<br>
+                    <img src="rain.svg" alt="rain"><br>
+                    15°
+                </th>
+
+
+                <th>
+                    08:00<br>
+                    <img src="cloudy.svg" alt="cloudy"><br>
+                    16°
+                </th>
+
+
+                <th>
+                    09:00<br>
+                    <img src="cloudy.svg" alt="cloudy"><br>
+                    16°
+                </th>
+
+                <th>
+                    10:00<br>
+                    <img src="cloudy.svg" alt="cloudy"><br>
+                    16°
+                </th>
+
+                <th>
+                    11:00<br>
+                    <img src="mostlycloudy.svg" alt="mostlycloudy"><br>
+                    17°
+                </th>
+
+                <th>
+                    12:00<br>
+                    <img src="mostlycloudy.svg" alt="mostlycloudy"><br>
+                    18°
+                </th>
+
+                <th>
+                    01:00<br>
+                    <img src="partlycloudy.svg" alt="partlycloudy"><br>
+                    20°
+                </th>
+
+                <th>
+                    02:00<br>
+                    <img src="Sun.svg" alt="Sun"><br>
+                    22°
+                </th>
+
+                <th>
+                    03:00<br>
+                    <img src="Sun.svg" alt="Sun"><br>
+                    22°
+                </th>
+
+                <th>
+                    04:00<br>
+                    <img src="Sun.svg" alt="Sun"><br>
+                    22°
+                </th>
+
+                <th>
+                    05:00<br>
+                    <img src="Sun.svg" alt="Sun"><br>
+                    21°
+                </th>
+
+                <th>
+                    06:00<br>
+                    <img src="partlycloudy.svg" alt="partlycloudy"><br>
+                    19°
+                </th>
+
+                <th>
+                    07:00<br>
+                    <img src="partlycloudy.svg" alt="partlycloudy"><br>
+                    19°
+                </th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>

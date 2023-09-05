@@ -6,44 +6,72 @@ body {
   
 .background-element {
     width: 100%; 
-    height: 300px; 
+    height: 450px; 
     background-image: url('BackGround.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
+    
 }
-
+.title{
+    margin-top: 185px;
+    color: white;
+}
 .SearchingDiv{
-    margin-left: 30%;
+    margin-left: 35%;
     width:400px;
     height:200px ;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.SearchingDiv h1{
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Style the search input field */
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 4px;
+    width: 420px;
+    outline: none;
+}
+
+/* Style the search button */
+.search-button {
+    background:transparent;
     color: white;
-}
-.SearchingDiv form{
-    width: 70%;
-}
-.SearchingDiv input{
-    border-radius: 30%;
     border: none;
-height: 30px;
-width: 100%;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+/* Style the search icon */
+.search-icon {
+    font-size: 20px;
 }
 .daysTempureture{
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 80px;
 }
 .daysTempureture div {
-    background-color: gray;
+    background-color: rgba(184, 184, 184, 0.507);
     align-self: center;
     width: 100%;
     height: 100%;
     border: 1px solid black;
+    font-size: 28px;
+    text-align: center;
+}
+.dys{
+    margin-top: 15px;
 }
 .weatherDataContainer{
     width:100%;
@@ -62,11 +90,24 @@ section{
     display: flex;
     flex-direction: row;
 }
+.pays{
+    font-size: 18px;
+}
+.adate{
+    font-size:30px;
+    font-style: bold;
+}
+.adeg{
+    font-size: 80px;
+    margin-left: 450px;
+    margin-top: -10px;
+}
 .LocationIcon{
     width: 30px;
     height: 40px;
 }
 .SunIcon{
+    margin-left: 300px;
     width: 100px;
     height: 100px;
 }
@@ -81,4 +122,27 @@ margin-left: 40px;
 .SearchImg{
     width: 30px;
     height: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    background-color: rgba(184, 184, 184, 0.699);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: rgba(184, 184, 184, 0.507);
+}
+img{
+    width:30px;
+    height:30px;
+}
+.scroll-container {
+    max-height: 300px;
+    overflow-y: auto;
 }
