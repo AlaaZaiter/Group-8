@@ -2,28 +2,31 @@ body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
-  }
-  
-.background-element {
-    width: 100%; 
-    height: 450px; 
-    background-image: url('BackGround.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    
 }
-.title{
+
+.background-element {
+    width: 100%;
+    height: 450px;
+    background-image: url('BackGround.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.title {
     margin-top: 185px;
     color: white;
 }
-.SearchingDiv{
+
+.SearchingDiv {
     margin-left: 35%;
-    width:400px;
-    height:200px ;
+    width: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .search-container {
     display: flex;
     align-items: center;
@@ -42,7 +45,7 @@ body {
 
 /* Style the search button */
 .search-button {
-    background:transparent;
+    background: transparent;
     color: white;
     border: none;
     border-radius: 9px;
@@ -55,12 +58,14 @@ body {
 .search-icon {
     font-size: 20px;
 }
-.daysTempureture{
+
+.daysTempureture {
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 80px;
 }
+
 .daysTempureture div {
     background-color: rgba(184, 184, 184, 0.507);
     align-self: center;
@@ -70,59 +75,73 @@ body {
     font-size: 28px;
     text-align: center;
 }
-.dys{
+
+.dys {
     margin-top: 15px;
 }
-.weatherDataContainer{
-    width:100%;
+
+.weatherDataContainer {
+    width: 100%;
     height: 200px;
 
 }
-.weatherDataContainer div{
+
+.weatherDataContainer div {
     display: flex;
     flex-direction: row;
 }
-.daysTempureture div:hover{
-   background-color: white;
-   color: white;
+
+.daysTempureture div:hover {
+    background-color: white;
+    color: white;
 }
-section{
+
+section {
     display: flex;
     flex-direction: row;
 }
-.pays{
+
+.pays {
     font-size: 18px;
 }
-.adate{
-    font-size:30px;
+
+.adate {
+    font-size: 30px;
     font-style: bold;
 }
-.adeg{
+
+.adeg {
     font-size: 80px;
     margin-left: 450px;
     margin-top: -10px;
 }
-.LocationIcon{
+
+.LocationIcon {
     width: 30px;
     height: 40px;
 }
-.SunIcon{
+
+.SunIcon {
     margin-left: 300px;
     width: 100px;
     height: 100px;
 }
-.HoursWeather{
-width: 100%;
-display: flex;
-flex-direction: row;
+
+.HoursWeather {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
-.HoursWeather div{
-margin-left: 40px;
+
+.HoursWeather div {
+    margin-left: 40px;
 }
-.SearchImg{
+
+.SearchImg {
     width: 30px;
     height: 30px;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -130,24 +149,63 @@ table {
     background-color: rgba(184, 184, 184, 0.699);
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
+
 tr:nth-child(even) {
     background-color: rgba(184, 184, 184, 0.507);
 }
-img{
-    width:30px;
-    height:30px;
+
+img {
+    width: 30px;
+    height: 30px;
 }
+
 .scroll-container {
     max-height: 300px;
     overflow-y: auto;
 }
+
 .footer {
-   font-size: 18px;
-   margin-left: 300px;
-   margin-top: 10px;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .SearchingDiv {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search-button {
+        margin-left: 0;
+    }
+
+    .adeg {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .SunIcon {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .HoursWeather div {
+        margin-left: 10px;
+    }
+
+    .footer {
+        margin-left: 10px;
+    }
 }
