@@ -146,3 +146,8 @@ img{
     max-height: 300px;
     overflow-y: auto;
 }
+.footer {
+   font-size: 18px;
+   margin-left: 300px;
+   margin-top: 10px;
+}
