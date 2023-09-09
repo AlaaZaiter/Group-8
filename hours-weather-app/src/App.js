@@ -188,7 +188,7 @@ function App() {
                       <p>{Math.round(forecast.main.temp)}°C</p>
                     </th>
                   ))
-                : ""}
+                : "" }
             </tr>
           </tbody>
         </table>
