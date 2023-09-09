@@ -121,8 +121,8 @@ section {
     height: 40px;
 }
 
-.SunIcon {
-    margin-left: 300px;
+.WeatherIcon {
+    margin-left: 200px;
     width: 100px;
     height: 100px;
 }
@@ -196,8 +196,8 @@ img {
         text-align: center;
     }
 
-    .SunIcon {
-        margin-left: 0;
+    .WeatherIcon {
+        margin-left: 50px;
         text-align: center;
     }
 
@@ -209,25 +209,7 @@ img {
         margin-left: 10px;
     }
 }
-@media screen and (min-width: 678px){
-    .adeg {
-        margin-left: 200px;
-    }
-    .SunIcon {
-        margin-left: 200px;
-    }
-    
-    .search-input {
-        width: 400px;
-        height: 50px;
-    }
-    .pays {
-        font-size: 25px;
-    }
-    table p{
-        font-size: 25px;
-    }
-}
+
 @media screen and (max-width: 320px) {
     .title {
         font-size: 20px;
@@ -255,8 +237,8 @@ img {
     .dys {
         margin-top: 5px;
     }
-     .SunIcon {
-        margin-left: -10px;
+     .WeatherIcon {
+        margin-left: 80px;
         width: 60px;
         height: 60px; 
     }
@@ -271,5 +253,31 @@ img {
         margin-top: 5px; 
         text-align: center
      }
+     tr {
+        display: block; 
+        width: 50%;
+        margin-bottom: 10px; 
+      }
     
+}
+@media screen and (min-width: 678px){
+    .adeg {
+        margin-left: 200px;
+    }
+    .search-input {
+        width: 400px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .pays {
+        font-size: 25px;
+    }
+    table p{
+        font-size: 25px;
+    }
+    .WeatherIcon {
+        margin-left: 150px;
+        width: 100px;
+        height: 100px; 
+    }
 }
